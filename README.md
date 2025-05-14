@@ -89,3 +89,7 @@ Attribute	Description:
 
 ---
 
+## 📌 Conclusion
+This project demonstrates how RFM analysis combined with K-Means clustering can effectively identify and separate customer segments for targeted marketing. Such segmentation allows companies to better allocate resources, improve customer retention, and increase profitability.
+
+---
