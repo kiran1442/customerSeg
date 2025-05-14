@@ -28,35 +28,26 @@ Attribute	Description:
 
 1. Data Loading & Exploration:
 - Load dataset from Google Drive (Excel format).
-
 - Inspect data types, missing values, and overall structure.
 
 2. Data Cleaning:
 - Drop records with missing CustomerID.
-
 - Remove duplicate rows.
-
 - Exclude negative quantity rows (mostly cancellations).
-
 - Filter out transactions with non-positive unit prices.
 
 3. Data Visualization:
 - Analyze top 10 countries by number of transactions.
-
 - Analyze monthly transaction volume.
-
 - Compute and plot MonetaryValue, Frequency, and Recency per customer.
 
 4. Feature Engineering (RFM):
 - Recency: Days since last purchase from reference date (Dec 10, 2011).
-
 - Frequency: Number of purchases per customer.
-
 - Monetary: Total spending per customer.
 
 5. Preprocessing:
 - Apply logarithmic transformation to remove skewness in data.
-
 - Visualize transformed data distributions.
 
 6. RFM Clustering:
@@ -64,11 +55,8 @@ Attribute	Description:
 
 7. Clustering with K-Means:
 - Use Elbow Method and Silhouette Score to determine optimal cluster count.
-
 - Perform K-Means clustering with K=4.
-
 - Assign cluster labels to customers.
-
 - Compute and interpret mean RFM values for each cluster.
 
 ---
@@ -91,13 +79,13 @@ Attribute	Description:
 
 - These segments can help the business tailor their marketing strategies to different customer behaviors:
 
-    -- High spenders with recent activity
+    - High spenders with recent activity
 
-    -- Frequent buyers
+    - Frequent buyers
 
-    -- Inactive or churned users
+    - Inactive or churned users
 
-    -- Low-frequency, low-monetary customers
+    - Low-frequency, low-monetary customers
 
 ---
 
